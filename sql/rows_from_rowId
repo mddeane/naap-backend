@@ -1,0 +1,5 @@
+SELECT * FROM RUNDOWN_ROW_JOIN 
+where RUNDOWN_ROW_JOIN.RUNDOWN_ID = 1
+
+@Query("SELECT * FROM RUNDOWN_ROW_JOIN where RUNDOWN_ROW_JOIN.RUNDOWN_ID = %:rundownId")
+	List<Long> findStoriesByRundown(long rundownId);

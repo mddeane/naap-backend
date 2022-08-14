@@ -1,0 +1,6 @@
+insert into RUNDOWN_ROW_JOIN (RUNDOWN_ID, ROW_ID)
+values (1, 1);
+insert into RUNDOWN_ROW_JOIN (RUNDOWN_ID, ROW_ID)
+values (1, 2);
+insert into RUNDOWN_ROW_JOIN (RUNDOWN_ID, ROW_ID)
+values (1, 3);
